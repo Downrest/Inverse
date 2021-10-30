@@ -12,3 +12,4 @@ ____
 - /wave - Say hello to the bot!
 - /animals - Sends you images of random animals.
 
+
