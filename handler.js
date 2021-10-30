@@ -1,3 +1,9 @@
+/* 
+ * [HANDLER.JS]
+ * 
+ * A file that registers and saves the slash commands.
+*/
+
 const fs = require('fs');
 const { REST } = require('@discordjs/rest');
 const { Routes } = require('discord-api-types/v9');
@@ -14,5 +20,5 @@ for (const file of commandFiles) {
 const rest = new REST({ version: '9' }).setToken(process.env.clientToken);
 
 rest.put(Routes.applicationGuildCommands(process.env.clientID, guildId), { body: commands })
-	.then(() => console.log('Successfully registered application commands.'))
-	.catch(console.error);
+.then(() => console.log('Successfully registered application commands.'))
+.catch(console.error);
