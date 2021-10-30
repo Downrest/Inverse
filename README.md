@@ -1,14 +1,14 @@
 ![inverse-icon6](https://user-images.githubusercontent.com/83262692/139449176-ff294618-947d-4f2e-aaf4-92aef94dc314.png)
 ____
-
-
 <h1 align=center>What is Inverse?</a></h3>
+<p>Inverse is a simple, fun, and open-source Discord bot.  </p>
+<p>Feel free to try all the weird and quirky commands this bot has to offer. You can discover new things through our trivias, test your skills with our Math questions, and other things that you can explore on your own!</p>
 
-<h3 align=center>Inverse is a simple, easy to use, lightweight, and open-source Discord bot. This was developed by Downrest#6466.</a></h3>
+<h1 align=center>What are the commands!</a></h3>
 
+- /help - Lists all of the available commands!
+- /math - Sends you randomized Math questions.
+- /trivia - Sends you randomized trivias.
+- /wave - Say hello to the bot!
+- /animals - Sends you images of random animals.
 
-<h1 align=center>What are the features?</a></h3>
-
-<h3 align=center>I'm planning to add more tools, and make it more simpler and cleaner. These planned additions are moderation tools, fun commands, and others. Feel free to use any of the code on this repository, it is open-source after all.</a></h3>
-
-<h3 align=center>If you found this bot helpful, please star this repository!</a></h3>
