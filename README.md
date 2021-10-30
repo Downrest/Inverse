@@ -12,4 +12,7 @@ ____
 - /wave - Say hello to the bot!
 - /animals - Sends you images of random animals.
 
+<h1 align=center>Where is the invite link?</a></h3>
+<p>Currently, it's still in the beta phase.</p>
+
 
