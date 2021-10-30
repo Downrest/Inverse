@@ -3,7 +3,7 @@ ____
 <h1 align=center>What is Inverse?</a></h3>
 
 <p>Inverse is a simple, fun, and open-source Discord bot.  </p>
-<p>Feel free to try all the weird and quirky commands this bot has to offer. You can discover new things through our trivias, test your skills with our Math questions, and other things that you can explore on your own!</p>
+<p>Feel free to try all the weird and quirky commands this bot has to offer. You can discover new things through our trivias, test your skills with our Math questions, and more things that you can explore on your own!</p>
 
 <h1 align=center>What are the commands!</a></h3>
 
