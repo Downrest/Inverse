@@ -12,6 +12,9 @@ ____
 - /trivia - Sends you randomized trivias.
 - /wave - Say hello to the bot!
 - /animals - Sends you images of random animals.
+- /github - Sends a link to the GitHub!
+- /minecraft-wallpapers - Sends random images of Minecraft with beautiful shaders!
+- /yes-or-no - Asks the opinion of the bot on your statement.
 
 <h1 align=center>Where is the invite link?</a></h3>
 <p>Currently, it's still in the beta phase.</p>
