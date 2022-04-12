@@ -6,6 +6,6 @@ module.exports = {
 		.setName('wave')
 		.setDescription("Wave to the bot!"),
 	async execute(interaction) {
-		interaction.reply("Oh, hello there! 👋")
+		interaction.editReply("Oh, hello there! 👋")
 	},
 };
