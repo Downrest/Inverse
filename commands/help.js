@@ -20,6 +20,6 @@ module.exports = {
       )
       .setFooter('Inverse', 'https://i.imgur.com/h60zCmi.png');
 
-    interaction.reply({ embeds: [embed1, embed2, embed3] });
+    interaction.editReply({ embeds: [embed1, embed2, embed3] });
   },
 };

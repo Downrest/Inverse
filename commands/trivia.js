@@ -15,6 +15,6 @@ module.exports = {
 			.setDescription(trivias[Math.floor(Math.random() * trivias.length)])
 			.setFooter('Inverse', 'https://i.imgur.com/h60zCmi.png');
 
-		interaction.reply({ embeds: [embed] });
+		interaction.editReply({ embeds: [embed] });
 	},
 };

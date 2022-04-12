@@ -32,6 +32,8 @@ app.get("/", (req, res) => {
 
 /** Commands */
 client.on('interactionCreate', async interaction => {
+	//we do this to tell discord we responded to the interaction
+	interaction.reply("Thinking...")
 	if (!interaction.isCommand()) return;
 
 	const command = client.commands.get(interaction.commandName);

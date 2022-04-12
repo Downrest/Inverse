@@ -13,6 +13,6 @@ module.exports = {
 			.setImage(animals[Math.floor(Math.random() * animals.length)])
 			.setFooter('Inverse', 'https://i.imgur.com/h60zCmi.png');
 
-		interaction.reply({ embeds: [embed] });
+		interaction.editReply({ embeds: [embed] });
 	},
 };
