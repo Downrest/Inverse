@@ -11,23 +11,23 @@ const fs = require('fs');
 const { Client, Collection, Intents } = require('discord.js');
 const client = new Client({ intents: [Intents.FLAGS.GUILDS] });
 require('dotenv').config()
+
+
 client.commands = new Collection();
 const commandFiles = fs.readdirSync('./commands').filter(file => file.endsWith('.js'));
 
 /** Logs */
 for (const file of commandFiles) {
 	const command = require(`./commands/${file}`);
-  
+
 	client.commands.set(command.data.name, command);
 }
 client.on('ready', () => {
-  console.log("Inverse has logged in!");
+	console.log("Inverse has logged in!");
 });
+
 app.get("/", (req, res) => {
-  res.send("Inverse has been initiated!")
-}) 
-app.listen(3000, () => {
-  console.log("Inverse is ready!")
+	res.send("Inverse has been initiated!")
 })
 
 /** Commands */
@@ -46,5 +46,9 @@ client.on('interactionCreate', async interaction => {
 	}
 });
 
-/** Token */
+/** Token + Listen */
 client.login(process.env.clientToken)
+
+app.listen(3000, () => {
+	console.log("Inverse is ready!")
+})
